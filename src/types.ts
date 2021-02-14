@@ -1,4 +1,3 @@
-
 export enum Group {
     brown,
     lightBlue,
@@ -7,10 +6,18 @@ export enum Group {
     red,
     yellow,
     green,
-    blue
+    blue,
+    station,
+    utility
 }
 
 export enum CardType {
     chance,
     community
+}
+
+export enum BuyingStrategy {
+    always,
+    never,
+    random
 }
